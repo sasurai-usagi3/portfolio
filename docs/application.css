@@ -55,3 +55,37 @@ ul {
   border-left: 1px solid #000;
 }
 
+.p-section {
+  padding: 1.5rem 0 1.5rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.p-section__title {
+  font-size: 2rem;
+}
+
+.p-section__sub-title {
+  font-size: 1.5rem;
+}
+
+.p-skill-list {
+  display: flex;
+}
+
+.p-skill-list__item:nth-last-of-type(n + 2)::after {
+  content: '/';
+  margin: 0 0.25rem;
+}
+
+.u-pl--3rem {
+  padding-left: 3rem;
+}
+
+.u-pl--5rem {
+  padding-left: 5rem;
+}
+
+.u-mt--5rem {
+  margin-top: 5rem;
+}
