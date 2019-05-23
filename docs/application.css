@@ -100,6 +100,29 @@ ul {
   margin-bottom: 2rem;
 }
 
+.p-btn-to-open-and-close-list {
+  border: none;
+  width: 100%;
+  padding: 1.5rem 0;
+  font-size: 1.2rem;
+  transition-duration: 0.25s;
+}
+
+.p-btn-to-open-and-close-list:hover {
+  background-color: #eee;
+}
+
+.p-btn-to-open-and-close-list::after {
+  content: '';
+  display: inline-block;
+  margin-left: 0.7rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  transform: rotateZ(-45deg) translateY(-0.2rem);
+}
+
 .u-pl--3rem {
   padding-left: 3rem;
 }
