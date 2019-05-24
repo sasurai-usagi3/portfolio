@@ -150,6 +150,14 @@ ul {
   padding-left: 5rem;
 }
 
+.u-mt--1rem {
+  margin-top: 1rem;
+}
+
 .u-mt--5rem {
   margin-top: 5rem;
+}
+
+.u-text-align--right {
+  text-align: right;
 }
