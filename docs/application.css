@@ -45,10 +45,17 @@ ul {
   letter-spacing: 0.5rem;
   width: calc(100% / 3);
   box-sizing: border-box;
+  transition-duration: 0.25s;
+}
+
+.p-links__item:hover {
+  background-color: #eee;
 }
 
 .p-links__item a {
   display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 .p-links__item:nth-of-type(n + 2) {
