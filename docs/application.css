@@ -14,6 +14,10 @@ ul {
   margin: 0;
 }
 
+a {
+  color: inherit;
+}
+
 .l-container {
   width: 960px;
   margin: 0 auto;
@@ -55,7 +59,6 @@ ul {
 .p-links__item a {
   display: block;
   text-decoration: none;
-  color: inherit;
 }
 
 .p-links__item:nth-of-type(n + 2) {
