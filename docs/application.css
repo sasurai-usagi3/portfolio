@@ -23,7 +23,7 @@ a {
   margin: 0 auto;
 }
 
-.p-top-section {
+.p-header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
